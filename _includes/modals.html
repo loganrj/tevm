@@ -1,0 +1,51 @@
+ <!-- Portfolio Modals -->
+ {% for post in site.posts %}
+    <div class="portfolio-modal modal fade" id="portfolioModal{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>{{ post.title }}</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            <p>{{ post.description }}</p>
+                            <!-- Novo -->
+                            <a href="http://goo.gl/ax7IjG" target='_blank' title="CURSOS ONLINE"><img class="img-responsive img-centered" src="img/portfolio/{{ post.img1 }}" alt=""></a>
+                            <div class="row text-center">
+                              <div class="col-md-4">
+                                  <h5 class="resource_title">“REGIMENTO INTERNO - MÉDIUNS”</h5>
+                                  <span class="meta_date">De <span>15 Janeiro</span>, 2015 </span>
+                                  <a class="btn btn-xl" href="https://goo.gl/P0lUpr"  target='_blank' title="REGIMENTO INTERNO">LEIA</a>
+                              </div>
+                              <div class="col-md-4">
+                                  <h5 class="resource_title">“INSTRUÇÕES - ASSISTÊNCIA 2015”</h5>
+                                  <span class="meta_date">De <span>15 Janeiro</span>, 2015 </span>
+                                  <a class="btn btn-xl" href="https://goo.gl/HWdMq9" target='_blank' title="NORMA TEVM 2015">LEIA</a>
+                              </div>
+
+<!-- link para disponibilizar as apostilas no curso ead
+                              <div class="col-md-4">
+                                  <h5 class="resource_title">“----> <!--APOSTILAS E LIVROS 2016”</h5>
+                                  <span class="meta_date">De <span>18 Fevereiro</span>, 2016 </span>
+                                  <a class="btn btn-xl" href="https://goo.gl/D5HVEE" target='_blank' title="APOSTILAS">VEJA</a>
+                                  <p></p>
+                              </div>
+-->
+                            </div>
+                            <!-- fim Novo -->
+                            </br>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endfor %}

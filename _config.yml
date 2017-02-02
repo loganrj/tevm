@@ -15,23 +15,40 @@ color:
 
 # Team names, titles and social links
 people:
-- name: Matildes de Iemanjá
+#- name: Matildes de Iemanjá
+#  pic: 1
+#  resp: TODAS
+#  position: IALORIXÁ
+#  social:
+#    - title: arrow-up
+#      url:
+#      guia: CABOCLO ARRANCA-TÔCO
+#    - title: coffee
+#      url: #
+#      guia: VOVÔ MARRUÁ
+#    - title: usb
+#      url: #
+#      guia: POMBA-GIRA DAS ALMAS
+#    - title: child
+#      url: #
+#      guia: ERÊ CRISPIM
+- name: Vanda de Iansã
   pic: 1
-  resp: TODAS
-  position: IALORIXÁ
+  resp: IBEIJADA
+  position: BABALORIXÁ
   social:
     - title: arrow-up
       url:
-      guia: CABOCLO ARRANCA-TÔCO
+      guia: CABOCLA JUREMA DAS MATAS
     - title: coffee
       url: #
-      guia: VOVÔ MARRUÁ
+      guia: VOVÓ TIA MARIA CONGA DE ARUANDA
     - title: usb
       url: #
-      guia: POMBA-GIRA DAS ALMAS
+      guia: POMBA-GIRA CIGANINHA
     - title: child
       url: #
-      guia: ERÊ CRISPIM
+      guia: ERẼ JUSSARINHA
 
 - name: Isaúra de Nanã
   pic: 2
@@ -87,38 +104,20 @@ people:
       url:
       guia: ERẼ CRISPINIANO
 
-- name: Vanda de Iansã
-  pic: 5
-  resp: IBEIJADA
-  position: BABALORIXÁ
-  social:
-    - title: arrow-up
-      url:
-      guia: CABOCLA JUREMA DAS MATAS
-    - title: coffee
-      url: #
-      guia: VOVÓ TIA MARIA CONGA DE ARUANDA
-    - title: usb
-      url: #
-      guia: POMBA-GIRA CIGANINHA
-    - title: child
-      url: #
-      guia: ERẼ JUSSARINHA
-
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
     url: http://goo.gl/5TZAgS
   - title: facebook
     url: https://goo.gl/L3Fy6w
-  - title: bitbucket
-    url: http://bitbucket.org/loganrj
+#  - title: bitbucket
+#    url: http://bitbucket.org/loganrj
   - title: github
     url: http://github.com/loganrj
   - title: youtube
     url: http://goo.gl/CL3y5C
-  - title: gg-circle
-    url: http://goo.gl/ax7IjG
+#  - title: gg-circle
+#    url: http://goo.gl/ax7IjG
 # Postal address (add as many lines as necessary)
 address:
   - line: 145 Rua Cardoso de Melo

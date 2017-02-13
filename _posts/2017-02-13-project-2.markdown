@@ -1,0 +1,15 @@
+---
+title: Links para Downloads de livros
+subtitle: Links para downloads de livros que estão na web, não querendo interferir nos direitos autorais de cada artista. Caso esteja ferindo algum direito autoral encaminhe-nos um email que retiramos os links.
+layout: default
+modal-id: 1
+date: 2017-02-13
+img: cursos-thumbnail.png
+img1: ead.jpg
+thumbnail: cursos-thumbnail.png
+alt: image-alt
+project-date: Fevereiro 2017
+client:
+category:
+description: Downloads de nossas livros espiritas atraves de links encotrados na web.
+---

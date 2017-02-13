@@ -4,9 +4,9 @@ subtitle: os atalhos para downloads dos livros estão na web, não querendo inte
 layout: default
 modal-id: 1
 date: 2017-02-13
-img: cursos-thumbnail.png
+img: links-thumbnail.png
 img1: ead.jpg
-thumbnail: cursos-thumbnail.png
+thumbnail: links-thumbnail.png
 alt: image-alt
 project-date: Fevereiro 2017
 client:

@@ -12,4 +12,5 @@ project-date: Abril 2016
 client:
 category:
 description: Fa?a downloads de nossas apostilas, manuais, regimentos, preces e etc..
+subtitulo: Cursos Online, downloads de Apostilas, Normas e Regimentos
 ---

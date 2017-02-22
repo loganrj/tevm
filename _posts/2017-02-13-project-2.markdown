@@ -12,4 +12,5 @@ project-date: Fevereiro 2017
 client:
 category:
 description: Downloads de nossas livros espiritas atraves de links encotrados na web. 
+subtitulo: os atalhos para downloads dos livros estão na web, não querendo interferir nos direitos autorais de cada artista. Caso esteja ferindo algum direito autoral encaminhe-nos um email que retiramos os links.
 ---

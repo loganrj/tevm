@@ -1,6 +1,6 @@
 ---
 title: Apostilas e Cursos
-subtitle: Cursos Online, downloads de Apostilas, Normas e Regimentos
+subtitle: Cursos Online, Normas e Regimentos
 layout: default
 modal-id: 1
 date: 2016-02-18

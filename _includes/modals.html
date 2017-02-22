@@ -21,7 +21,7 @@
                             <!-- <a href="http://goo.gl/ax7IjG" target='_blank' title="CURSOS ONLINE"><img class="img-responsive img-centered" src="img/portfolio/{{ post.img1 }}" alt=""></a> -->                          
                             <div class="row text-center">                            
                              
-                             
+                             {% if page == 1 %}
                               <div class="col-md-4">
                                   <h5 class="resource_title">“REGIMENTO INTERNO - MÉDIUNS”</h5>
                                   <span class="meta_date">De <span>15 Janeiro</span>, 2015 </span>
@@ -32,12 +32,13 @@
                                   <span class="meta_date">De <span>15 Janeiro</span>, 2015 </span>
                                   <a class="btn btn-xl" href="https://goo.gl/2Fyrfm" target='_blank' title="NORMA TEVM 2015">LEIA</a>
                               </div>
+                             {% else %}
                               <div class="col-md-4">
                                   <h5 class="resource_title">“PASTA DE LIVROS”</h5>
                                   <span class="meta_date">De <span>15 Janeiro</span>, 2017 </span>
                                   <a class="btn btn-xl" href="https://goo.gl/GdTSrZ" target='_blank' title="LIVROS 2015">LEIA</a>
                               </div>
-
+                            {% endif %}
                              
 <!-- link para disponibilizar as apostilas no curso ead
                               <div class="col-md-4">
